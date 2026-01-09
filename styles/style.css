@@ -190,10 +190,6 @@ header nav{
 
 /* Main Section Part One */
 
-main{
-    
-}
-
 #main-section-one{
     display: flex;
     flex-direction: column;
@@ -204,8 +200,8 @@ main{
     to bottom,
     rgba(250, 247, 247, 0.7) 0px,
     rgba(250, 247, 247, 0.7) 548px,
-    #8b0606 548px,                      
-    #8b0606 100%                        
+    #fff 548px,                      
+    #fff 100%                        
   );
 }
 
@@ -289,3 +285,62 @@ main{
 
 /* Main Section Two */
 
+#main-section-two{
+    display: flex;
+    max-width: 1360px;
+    width: 100%;
+    margin: 120px auto;
+    gap: 60px;
+    align-items: center;
+}
+
+#text-container h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    text-align: left;
+}
+
+#text-container h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #001931;
+    line-height: auto;
+    margin: 16px 0;
+    font-size: 48px;
+    text-align: left;
+}
+
+#text-container p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.checklist{
+    margin-top: 40px;
+}
+
+.checklist ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.checklist ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.checklist ul li h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    text-align: left;
+}
